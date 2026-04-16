@@ -1,0 +1,15 @@
+/dts-v1/;
+
+/include/ "bindings/zmk,display.dtsi";
+
+/ {
+    compatible = "my,vendor-device";
+    model = "Eyelash Corne";
+
+    zmk,keys = <
+        // Matrix transform defining the key layout
+        <0 0> <0 1> <0 2>
+        <1 0> <1 1> <1 2>
+        <2 0> <2 1> <2 2>
+    >;
+};
