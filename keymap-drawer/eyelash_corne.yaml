@@ -1,0 +1,149 @@
+layout: {zmk_keyboard: eyelash_corne}
+layers:
+  NOR:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - UP
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LEFT CONTROL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - LEFT
+  - ENTER
+  - RIGHT
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ENTER
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ▽, type: trans}
+  - DOWN
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - {t: SET, h: toggle}
+  - LEFT GUI
+  - {t: SPACE, h: LEFT ALT}
+  - {t: SPACE, h: NUM}
+  - RIGHT ALT
+  - RIGHT GUI
+  NUM:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACKSPACE
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - '-'
+  - '='
+  - ''''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - '['
+  - ']'
+  - RIGHT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SET:
+  - RGB TOG
+  - RGB COLOR HSB(184,100,50)
+  - ''
+  - ''
+  - ''
+  - '&bl BL_TOG'
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&soft_off'
+  - RGB BRI
+  - RGB SAI
+  - RGB HUI
+  - RGB EFF
+  - ''
+  - '&bl BL_INC'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB BRD
+  - RGB SAD
+  - RGB HUD
+  - RGB EFR
+  - ''
+  - '&bl BL_DEC'
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - BT PRV
+  - {t: BT, h: '0'}
+  - BT NXT
