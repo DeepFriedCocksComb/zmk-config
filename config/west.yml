@@ -4,8 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: DeepFriedCocksComb
-      url-base: https://github.com/DeepFriedCocksComb
+    #- name: DeepFriedCocksComb
+    #  url-base: https://github.com/DeepFriedCocksComb
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -16,8 +16,8 @@ manifest:
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
       path: modules/zmk-new_corne
-    - name: nice-view-gem
-      remote: DeepFriedCocksComb
-      revision: main
+    #- name: nice-view-gem
+    #  remote: DeepFriedCocksComb
+    #  revision: main
   self:
     path: config
