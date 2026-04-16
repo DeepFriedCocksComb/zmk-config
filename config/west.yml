@@ -11,6 +11,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: v0.3
       import: app/west.yml
     - name: zmk-new_corne
       url: https://github.com/a741725193/zmk-new_corne
