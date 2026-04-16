@@ -1,0 +1,33 @@
+/dts-v1/;
+
+/ {
+    compatible = "zmk,keyboard";
+    model = "Eyelash Corne keyboard";
+
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            leds {
+                compatible = "zmk,leds";
+                led1: led@1 {
+                    label = "RGB_LED1";
+                };
+                led2: led@2 {
+                    label = "RGB_LED2";
+                };
+            };
+            encoder1: encoder@2 {
+                compatible = "zmk,encoder";
+                label = "EC11_ENCODER1";
+            };
+            encoder2: encoder@3 {
+                compatible = "zmk,encoder";
+                label = "EC11_ENCODER2";
+            };
+            backlight {
+                compatible = "zmk,backlight";
+                pins = < GPIO_PIN >;
+            };
+        };
+    };
+};
