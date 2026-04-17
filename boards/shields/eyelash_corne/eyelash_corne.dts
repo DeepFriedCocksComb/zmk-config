@@ -16,14 +16,6 @@
                     label = "RGB_LED2";
                 };
             };
-            encoder1: encoder@2 {
-                compatible = "zmk,encoder";
-                label = "EC11_ENCODER1";
-            };
-            encoder2: encoder@3 {
-                compatible = "zmk,encoder";
-                label = "EC11_ENCODER2";
-            };
             backlight {
                 compatible = "zmk,backlight";
                 pins = < GPIO_PIN >;
